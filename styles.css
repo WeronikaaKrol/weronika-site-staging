@@ -800,6 +800,36 @@ h2 {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
+.passion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.75rem;
+}
+
+.passion-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.72rem 0.92rem;
+  border-radius: 999px;
+  background: rgba(45, 33, 28, 0.06);
+  border: 1px solid rgba(45, 33, 28, 0.1);
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.passion-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
 .contact-panel {
   position: relative;
   overflow: hidden;
