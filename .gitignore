@@ -1,0 +1,6 @@
+.runtime/
+published/
+tools/
+preview*.png
+gcm-diagnose.log
+Resume_WK.docx
