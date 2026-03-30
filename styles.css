@@ -29,6 +29,10 @@ html {
   scroll-behavior: smooth;
 }
 
+main [id] {
+  scroll-margin-top: 6.8rem;
+}
+
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
@@ -109,13 +113,13 @@ main {
 
 .site-nav {
   display: flex;
-  gap: 1.15rem;
+  gap: 0.9rem;
   flex-wrap: wrap;
 }
 
 .site-nav a {
   color: rgba(244, 239, 232, 0.72);
-  font-size: 0.92rem;
+  font-size: 0.86rem;
 }
 
 main {
