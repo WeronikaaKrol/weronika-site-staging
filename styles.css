@@ -941,8 +941,40 @@ h2 {
   }
 
   .highlight-card {
-    max-width: 12.8rem;
-    padding: 0.95rem;
+    max-width: 8.9rem;
+    padding: 0.62rem 0.68rem;
+    border-left-width: 3px;
+    border-radius: 14px;
+  }
+
+  .highlight-number {
+    font-size: 1.55rem;
+    margin-bottom: 0.18rem;
+  }
+
+  .highlight-card-main .highlight-number {
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+
+  .highlight-label {
+    font-size: 0.69rem;
+    line-height: 1.28;
+  }
+
+  .highlight-card-top {
+    top: 0.45rem;
+    left: 0.2rem;
+  }
+
+  .highlight-card-main {
+    left: 0.2rem;
+    bottom: 3.15rem;
+  }
+
+  .highlight-card-side {
+    right: 0.2rem;
+    bottom: 0.25rem;
   }
 
   .org-grid,
