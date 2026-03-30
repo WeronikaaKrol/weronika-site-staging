@@ -576,6 +576,12 @@ h2 {
   height: 1.55rem;
 }
 
+.logo-mark-tmobile img {
+  width: 1.82rem;
+  height: 1.82rem;
+  border-radius: 10px;
+}
+
 .logo-name,
 .logo-type,
 .community-years,
