@@ -807,35 +807,6 @@ h2 {
   margin-bottom: 0.1rem;
 }
 
-.skill-summary-list {
-  display: grid;
-  gap: 0.9rem;
-}
-
-.skill-summary-item {
-  padding: 1rem 1.05rem;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-}
-
-.skill-summary-title,
-.skill-summary-copy {
-  margin: 0;
-}
-
-.skill-summary-title {
-  font-family: "Syne", sans-serif;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.skill-summary-copy {
-  margin-top: 0.2rem;
-  color: var(--muted);
-  line-height: 1.8;
-}
-
 .chip-group {
   display: flex;
   flex-wrap: wrap;
