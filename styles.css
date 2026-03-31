@@ -458,6 +458,7 @@ h2 {
 
 .rail-panel,
 .vision-panel,
+.support-panel,
 .card-stack,
 .community-panel,
 .skill-panel,
@@ -478,6 +479,7 @@ h2 {
 
 .rail-panel::before,
 .vision-panel::before,
+.support-panel::before,
 .contact-panel::before {
   content: "";
   position: absolute;
@@ -620,9 +622,31 @@ h2 {
   padding-left: 2rem;
 }
 
+.support-panel {
+  position: relative;
+  overflow: hidden;
+  padding-left: 2rem;
+}
+
 .vision-panel > p {
   max-width: 100%;
   width: 100%;
+}
+
+.support-intro {
+  margin: 0 0 1.2rem;
+  max-width: 100%;
+  color: var(--muted);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.support-grid {
+  margin-top: 0.25rem;
+}
+
+.support-card {
+  background: rgba(255, 253, 248, 0.9);
 }
 
 .vision-grid {
@@ -783,6 +807,35 @@ h2 {
   margin-bottom: 0.1rem;
 }
 
+.skill-summary-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.skill-summary-item {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.skill-summary-title,
+.skill-summary-copy {
+  margin: 0;
+}
+
+.skill-summary-title {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.skill-summary-copy {
+  margin-top: 0.2rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
 .chip-group {
   display: flex;
   flex-wrap: wrap;
@@ -849,6 +902,17 @@ h2 {
 .contact-links {
   display: grid;
   gap: 0.8rem;
+}
+
+.contact-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.contact-list li {
+  line-height: 1.7;
 }
 
 .contact-links a {
@@ -1027,6 +1091,7 @@ h2 {
   }
 
   .vision-panel,
+  .support-panel,
   .contact-panel {
     padding-left: 1.5rem;
   }
