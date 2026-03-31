@@ -219,6 +219,14 @@ h2 {
   color: rgba(244, 239, 232, 0.78);
 }
 
+.hero-positioning {
+  margin: 0;
+  color: rgba(255, 244, 232, 0.92);
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 600;
+}
+
 .hero-note p {
   color: var(--ink);
 }
@@ -775,6 +783,11 @@ h2 {
   border-top: 5px solid var(--sand-deep);
 }
 
+.badge-grid-recognition .badge-card-spotlight {
+  background: linear-gradient(180deg, rgba(255, 253, 248, 1), rgba(241, 232, 222, 0.98));
+  box-shadow: 0 28px 62px rgba(37, 24, 18, 0.14);
+}
+
 .badge-body {
   color: var(--muted);
 }
@@ -873,17 +886,6 @@ h2 {
 .contact-links {
   display: grid;
   gap: 0.8rem;
-}
-
-.contact-list {
-  margin: 0;
-  padding-left: 1.15rem;
-  display: grid;
-  gap: 0.35rem;
-}
-
-.contact-list li {
-  line-height: 1.7;
 }
 
 .contact-links a {
@@ -1065,5 +1067,11 @@ h2 {
   .support-panel,
   .contact-panel {
     padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .badge-grid-recognition .badge-card-spotlight {
+    grid-column: span 2;
   }
 }
